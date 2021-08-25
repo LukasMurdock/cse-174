@@ -4,6 +4,10 @@ CSE-174
 ## Resources
 [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
+## Other Coding Resources
+- [DevIq](https://deviq.com/)
+- [Awesome Software Engineering](https://github.com/rolanddb/awesome-software-engineering)
+
 ## Lectures
 Monday & Wednesday (10:05 - 11:55 AM)	
 

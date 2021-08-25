@@ -14,7 +14,7 @@ Keywords that you will soon forget!:
 
 ## Where does code run?
 
-We call the places code runs a **runtime**. It has this special name because to properly run the code, the *runtime* has to have the proper code to implement the features of the coding language itself.
+We call the places code runs a **runtime**. It has this special name because to properly run a coding language, the *runtime* has to have the proper code to implement the features of the coding language itself.
 
 You can think of the *runtime* as code on a machine that enables it to read a particular coding language.
 

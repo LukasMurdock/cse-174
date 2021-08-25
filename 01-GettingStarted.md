@@ -30,7 +30,7 @@ But just as you can have the proper knowledge to *run* the English language, act
 
 Don’t understand?
 
-Great! Me neither. Just remember this next part.
+Great! Me neither. That’s what an Integrated Development Environment (IDE) is for–an IDE combines developer tools into a single application. Just remember this next part.
 
 So, where does code run? Aside from “wherever there is a runtime and the code is run,” we can also say:
 - Code runs when it’s *compiled*

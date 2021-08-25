@@ -2,13 +2,15 @@
 CSE-174
 
 ## Resources
-[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [W3 Schools Java Tutorial](https://www.w3schools.com/java/default.asp)
 
 ## Other Coding Resources
 - [DevIq](https://deviq.com/)
 - [Awesome Software Engineering](https://github.com/rolanddb/awesome-software-engineering)
 - [Thinking about software engineering](https://nintil.com/programming)
 - [An Old Hacker's Tips On Staying Employed](https://madned.substack.com/p/an-old-hackers-tips-on-staying-employed)
+- [Best practices for writing code comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/)
 
 ## Lectures
 Monday & Wednesday (10:05 - 11:55 AM)	

@@ -139,3 +139,17 @@ You see how we can call `addNumbers()` multiple times and not have to add more c
 ! Except the `subtractNumbers()` function isn’t subtracting! We wouldn’t receive an error anywhere for this, there’s nothing wrong with the syntax. The error is in the `logic`, and logic is left up to us humans to verify if it’s correct or not. 
 
 ## Comments
+Honestly, I’m just gonna plug Stack Overflows [Best practices for writing code comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/).
+
+- Rule 1: **Comments should not duplicate the code**.
+- Rule 2: **Good comments do not excuse unclear code**.
+- Rule 3: **If you can’t write a clear comment, there may be a problem with the code**.
+- Rule 4: **Comments should dispel confusion, not cause it**.
+- Rule 5: **Explain unidiomatic code in comments**.
+- Rule 6: **Provide links to the original source of copied code**.
+- Rule 7: **Include links to external references where they will be most helpful**.
+- Rule 8: **Add comments when fixing bugs**.
+- Rule 9: **Use comments to mark incomplete implementations**.
+
+Now, go read it.
+

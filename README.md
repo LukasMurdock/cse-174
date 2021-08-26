@@ -21,4 +21,14 @@ by Cay S. Horstmann (San Jose State Univ.)
 ISBN: 9781118026274
 
 ## Quiz
-welcom
+- welcom
+- jQuery
+
+## Parts
+1. Getting Started
+    - Where Java runs
+    - How Java runs
+    - JDK, JRE, JVM, Compiler, IDE
+    - Objects
+    - Types (primitives)
+    - Code comments

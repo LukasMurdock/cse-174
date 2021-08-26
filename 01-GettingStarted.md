@@ -57,6 +57,20 @@ Here’s an image from the internet.
 
 The compile step is kinda like how you can’t read the next volume of your favorite series because it was written in another language, so you have to get a version converted into a language that you can read. Once you have the compiled version you can run it. Without the compile step, ya can’t do nothin with it.
 
+## Okay IDK, IDE?
+
+Yes, more terms, gotta love learning the *jargon*. At least you don’t have to learn [Geek Code](https://www.geekcode.xyz/geek.html). Integrated Development Environments (IDEs) are not required to code–but they make some things easier! They bundle a lot of otherwise manual work into an easier flow.
+
+Popular Java IDEs include:
+- Eclipse
+- IntelliJ Idea
+- NetBeans
+- BlueJ
+- jGRASP
+- DrJava
+
+Does your IDE really matter? **No**. But as a Pragmatic Programmer, you must learn your tools and make them your own. Development environments are customizable, customize yours. Pick a theme, pick a font, it’s your world to make.
+
 ## Help, I Can’t Read This \@\#\$\&ing \+\%\$\#
 
 ```java
@@ -107,7 +121,7 @@ You can pass objects, into methods (which are objects themselves, more on this i
 
 Why use methods? To reuse code: define the code once, and use it many times. In this case, we apparently want to create multiple cars.
 
-I no longer like this example, so I’m going to rewrite it again to be a calculator. Because, coding makes it easy to not repeat yourself, say you don’t want to remember how to add and subtract, you can just abstract that math into a method and never have to think about it again!
+I no longer like this example, so I’m going to rewrite it again to be a calculator. Coding makes it easy to not repeat yourself, say you don’t want to remember how to add and subtract, you can just abstract that math into a method and then you’ll never have to think about it again!
 
 ```java
 // JavaClass.java
@@ -134,7 +148,7 @@ public class Calculator {
 
 You can see I’ve added two new methods, `addNumbers()` and `subtractNumbers()`. They seem to take in two variables that you state when you call the function (reminder: methods are functions) like so `addNumbers(2, 2)`. The function then simply returns the result of the two variables added or subtracted together.
 
-You see how we can call `addNumbers()` multiple times and not have to add more code to handle the addition of numbers? While this is a simple example, this is an *extremely* common code pattern–Don’t Repeat Yourself!
+You see how we can call `addNumbers()` multiple times and not have to add more code to handle the addition of numbers? While this is a simple example, this is an *extremely* common code pattern–[Don’t Repeat Yourself](https://deviq.com/principles/dont-repeat-yourself)!
 
 ! Except the `subtractNumbers()` function isn’t subtracting! We wouldn’t receive an error anywhere for this, there’s nothing wrong with the syntax. The error is in the *logic*, and logic is left up to us humans to verify if it’s correct or not. 
 

@@ -208,10 +208,42 @@ Now we have types specified! Hopefully you see a few patterns of code here:
     - Functions can accept objects
     - Functions can return objects
 
+Now, it’s time to introduce non-primitive values—types that let us make our own values.
+
+In Java a few non-primitive data types are:
+- class
+- object
+- array
+- string
+- interface
+
+Bringing back the Java code for our basic calculator:
+
+```java
+// JavaClass.java
+public class Calculator {
+    public static void main(String[] args) {
+        System.out.println(addNumbers(400, 20));
+        System.out.println(addNumbers(60, 9));
+    }
+
+    public static int addNumbers(int x, int y) {
+        return x + y;
+    }
+
+    public static int subtractNumbers(int x, int y) {
+        return x + y;
+    }
+}
+
+// 420
+// 69
+```
+
+You can see that *we* are creating the value for the `class` Calculator and the object methods `addNumbers()` and `subtractNumbers()`. Whenever we use primitive types, you can imagine that we’re merely *summoning* the values from Java-land, instead of *creating* them. All numbers already exist within Java-land. When we use `400`, `20`, `60`, `9`, we’re just *summoning* those values–we can change what number we use from `400` to `20` but we cannot change the value of the number `400` to `20`. However, with non-primitives, such as our `addNumbers()` object, we *can* change the value of it–that let’s us do cool coding things!
 
 
-
-## Comments
+## Code Comments
 Honestly, I’m just gonna plug Stack Overflows [Best practices for writing code comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/).
 
 - Rule 1: **Comments should not duplicate the code**.

@@ -172,6 +172,8 @@ console.log(calculator.subtractNumbers(2, 4))
 // -2
 ```
 
+## Data Types
+
 Maybe you’re starting to notice some interesting patterns. Coding languages have data types built in to the language that always have a value. For example, Java has the following **primitive types**:
 - byte (Stores whole numbers from -128 to 127)
 - short (Stores whole numbers from -32,768 to 32,767)
@@ -256,6 +258,61 @@ public class Calculator {
 
 You can see that *we* are creating the value for the `class` Calculator and the object methods `addNumbers()` and `subtractNumbers()`. Whenever we use primitive types, you can imagine that we’re merely *summoning* the values from Java-land, instead of *creating* them. All numbers already exist within Java-land. When we use `400`, `20`, `60`, `9`, we’re just *summoning* those values–we can change what number we use from `400` to `20` but we cannot change the value of the number `400` to `20`. However, with non-primitives, such as our `addNumbers()` object, we *can* change the value of it–that let’s us do cool coding things!
 
+## Operators
+
+You know what mathematical operations like addition (+), subtraction (-), multiplication (*), division (/), equal (=), not-equal (!=), greater than (>), less than (<), greater than or equal to (<=), and less than or equal to (>=).
+
+These operators exist in coding languages as well to perform operations on variables and values. In Java they look like the following:
+
+### Java Arithmetic Operators
+Arithmetic operators are used to perform common mathematical operations.
+
+| Operator | Name           | Description                            | Example |
+|:--------:|----------------|----------------------------------------|---------|
+| +        | Addition       | Adds together two values               | x + y   |
+| -        | Subtraction    | Subtracts one value from another       | x - y   |
+| *        | Multiplication | Multiplies two values                  | x * y   |
+| /        | Division       | Divides one value by another           | x / y   |
+| %        | Modulus        | Returns the division remainder         | x % y   |
+| ++       | Increment      | Increases the value of a variable by 1 | ++x     |
+| --       | Decrement      | Decreases the value of a variable by 1 | --x     |
+
+### Java Comparison Operators
+Comparison operators are used to compare two values.
+
+
+| Operator | Name                     | Example |
+|:--------:|--------------------------|---------|
+| ==       | Equal to                 | x == y  |
+| !=       | Not equal                | x != y  |
+| >        | Greater than             | x > y   |
+| <        | Less than                | x < y   |
+| >=       | Greater than or equal to | x >= y  |
+| <=       | Less than or equal to    | x <= y  |
+
+### Java Assignment Operators
+Assignment operators are used to assign values to variables.
+
+| Operator | Example | Same as    |
+|:--------:|---------|------------|
+| =        | x = 5   | x = 5      |
+| +=       | x += 3  | x = x + 3  |
+| -=       | x -= 3  | x = x - 3  |
+| /=       | x /= 3  | x = x / 3  |
+| &=       | x &= 3  | x = x & 3  |
+| \|=      | x \|= 3 | x = x \| 3 |
+| ^=       | x ^= 3  | x = x ^ 3  |
+| >>=      | x >>= 3 | x = x >> 3 |
+| <<=      | x <<= 3 | x = x << 3 |
+
+### Java Logical Operators
+Logical operators are used to determine the logic between variables or values.
+
+| Operator | Name        | Description                                             | Example            |
+|:--------:|-------------|---------------------------------------------------------|--------------------|
+| &&       | Logical and | Returns true if both statements are true                | x < 5 &&  x < 10   |
+| \|\|     | Logical or  | Returns true if one of the statements is true           | x < 5 \|\| x < 4   |
+| !        | Logical not | Reverse the result, returns false if the result is true | !(x < 5 && x < 10) |
 
 ## Code Comments
 Honestly, I’m just gonna plug Stack Overflows [Best practices for writing code comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/).

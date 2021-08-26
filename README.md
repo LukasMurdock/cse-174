@@ -31,4 +31,5 @@ ISBN: 9781118026274
     - JDK, JRE, JVM, Compiler, IDE
     - Objects
     - Types (primitives)
+    - Operators
     - Code comments

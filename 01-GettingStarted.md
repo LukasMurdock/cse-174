@@ -107,7 +107,7 @@ You can pass objects, into methods (which are objects themselves, more on this i
 
 Why use methods? To reuse code: define the code once, and use it many times. In this case, we apparently want to create multiple cars.
 
-I no longer like this example, so I’m going to rewrite it again to be a calculator.
+I no longer like this example, so I’m going to rewrite it again to be a calculator. Because, coding makes it easy to not repeat yourself, say you don’t want to remember how to add and subtract, you can just abstract that math into a method and never have to think about it again!
 
 ```java
 // JavaClass.java

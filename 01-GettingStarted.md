@@ -6,7 +6,7 @@ A few key questions to start us off (oh boy (girl, cat, or squirrel) do I hope y
 
 Keywords that you will soon forget!:
 - Compiler
-- Java Development Environment (JDK)
+- Java Development Kit (JDK)
 - Java Runtime Environment (JRE)
 - Java Virtual Machine (JVM)
 - Integrated Development Environment (IDE)
@@ -329,3 +329,33 @@ Honestly, I’m just gonna plug Stack Overflows [Best practices for writing code
 
 Now, go read it.
 
+## Vocab Review
+
+**Compiler**: translates computer code from one language (the source language) to another language (the target language).
+
+**Java Development Kit (JDK)**: Includes the Java Compiler, JRE, and other development tools into one nice package.
+
+**Java Runtime Environment (JRE)**: Provides class libraries and other resources a Java program needs to run.
+
+**Java Virtual Machine (JVM)**: The run-time engine that runs Java applications.
+
+**Integrated Development Environment (IDE)**: An application that consolidates basic tools required to write and test software.
+
+**Syntax**: The rules of the language.
+
+**Semantics**: The meaning of the words used in the language.
+
+**Data Types**: 
+- Primitive Data Types:
+    - byte (Stores whole numbers from -128 to 127)
+    - short (Stores whole numbers from -32,768 to 32,767)
+    - int (Stores whole numbers from -2,147,483,648 to 2,147,483,647)
+    - long (Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
+    - float (Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits)
+    - double (Stores fractional numbers. Sufficient for storing 15 decimal digits)
+    - boolean (Stores true or false values)
+    - char (Stores a single character/letter)
+- Non-primitive Data Types:
+    - String (Stores text)
+    - Array (Stores multiple objects in a single variable)
+    - Class

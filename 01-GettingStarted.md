@@ -36,7 +36,7 @@ So, where does code run? Aside from “wherever there is a runtime and the code 
 - Code runs when it’s *compiled*
 - Code runs at *runtime*.
 
-You know what this means? Two places where code runs means there’s two places we can get errors. Yay!
+You know what this means? Two places where code runs means there are two places we can get errors. Yay!
 
 Luckily they’re referred to as `compiler errors` and `runtime errors`. But, we like to have multiple names so here we go:
 - Compiler error: syntax error
@@ -103,7 +103,7 @@ The `main(…) {…}` block is what is called a **method** (aka a function)
 
 A method is a block of code which only runs when it is called. The `main()` method is required and you will see it in every Java program. Any code inside the `main()` method will run. You don't have to understand the keywords before and after main *yet*. We’ll get into that soon enough.
 
-You can pass data, known as parameters, into methods.
+You can pass objects, into methods (which are objects themselves, more on this in a bit).
 
 Why use methods? To reuse code: define the code once, and use it many times. In this case, we apparently want to create multiple cars.
 
@@ -136,9 +136,9 @@ You can see I’ve added two new methods, `addNumbers()` and `subtractNumbers()`
 
 You see how we can call `addNumbers()` multiple times and not have to add more code to handle the addition of numbers? While this is a simple example, this is an *extremely* common code pattern–Don’t Repeat Yourself!
 
-! Except the `subtractNumbers()` function isn’t subtracting! We wouldn’t receive an error anywhere for this, there’s nothing wrong with the syntax. The error is in the `logic`, and logic is left up to us humans to verify if it’s correct or not. 
+! Except the `subtractNumbers()` function isn’t subtracting! We wouldn’t receive an error anywhere for this, there’s nothing wrong with the syntax. The error is in the *logic*, and logic is left up to us humans to verify if it’s correct or not. 
 
-Just to continue your inundation, if we were to rewrite this in JavaScript, it might look something like this (I don’t do OOO in JS):
+Just to continue your inundation, if we were to rewrite this in JavaScript, it might look something like this (You can do classes in JavaScript, but I… don’t):
 
 ```javascript
 // JavaScriptFunction.js
@@ -158,7 +158,7 @@ console.log(calculator.subtractNumbers(2, 4))
 // -2
 ```
 
-Maybe you’re starting to notice some interesting patterns. To make it a bit closer to the Java code, we can use TypeScript. Coding languages have data types built in to the language that always have a value. For example, Java has the following **primitive types**:
+Maybe you’re starting to notice some interesting patterns. Coding languages have data types built in to the language that always have a value. For example, Java has the following **primitive types**:
 - byte (Stores whole numbers from -128 to 127)
 - short (Stores whole numbers from -32,768 to 32,767)
 - int (Stores whole numbers from -2,147,483,648 to 2,147,483,647)
@@ -181,9 +181,10 @@ Java is statically-typed, so it expects its variables to be declared before they
 
 This is why the function in Java has specified types: `addNumbers(int x, int y)` but the function in JavaScript does not `addNumbers(2, 4)`.
 
-However, typechecking at compile time catches some nice errors, and something that’s becoming more popular is TypeScript, a superset of JavaScript that adds type checking at compile time. Here’s the same code but in TypeScript.
+However, typechecking at compile time catches some nice errors. To make it a bit closer to the Java code, we can use TypeScript–a superset of JavaScript (all JavaScript is valid TypeScript) that adds type checking at compile time. Here’s the same code but in TypeScript.
 
 ```typescript
+// TypeScriptFunction.ts
 const calculator = {
   addNumbers: function (x: number, y: number): number {
     return x + y;

@@ -11,6 +11,7 @@ CSE-174
 - [Thinking about software engineering](https://nintil.com/programming)
 - [An Old Hacker's Tips On Staying Employed](https://madned.substack.com/p/an-old-hackers-tips-on-staying-employed)
 - [Best practices for writing code comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/)
+- [Influential books on programming](https://github.com/cs-books/influential-cs-books?utm_source=hackernewsletter&utm_medium=email&utm_term=books)
 
 ## Lectures
 Monday & Wednesday (10:05 - 11:55 AM)	

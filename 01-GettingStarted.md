@@ -290,11 +290,11 @@ public class Calculator {
 // 69
 ```
 
-You can see that *we* are creating the value for the `class` Calculator and the object methods `addNumbers()` and `subtractNumbers()`. Whenever we use primitive types, you can imagine that we’re merely *summoning* the values from Java-land, instead of *creating* them. All numbers already exist within Java-land. When we use `400`, `20`, `60`, `9`, we’re just *summoning* those values–we can change what number we use from `400` to `20` but we cannot change the value of the number `400` to `20`. However, with non-primitives, such as our `addNumbers()` object, we *can* change the value of it–that let’s us do cool coding things!
+You can see that *we* are creating the value for the `class` Calculator and the object methods `addNumbers()` and `subtractNumbers()`. Whenever we use primitive types, you can imagine that we’re merely *summoning* the values from Java-land, instead of *creating* them. All numbers already exist within Java-land. When we use `400`, `20`, `60`, `9`, we’re just *summoning* those values–we can change what number we use from `400` to `20` but we cannot change the value of the number `400` to `20`. However, with non-primitives, such as our `addNumbers()` object, we *can* change the value of it–that lets us do cool coding things!
 
 ## Operators
 
-You know what mathematical operations like addition (+), subtraction (-), multiplication (*), division (/), equal (=), not-equal (!=), greater than (>), less than (<), greater than or equal to (<=), and less than or equal to (>=).
+You know mathematical operations like addition (+), subtraction (-), multiplication (*), division (/), equal (=), not-equal (!=), greater than (>), less than (<), greater than or equal to (<=), and less than or equal to (>=).
 
 These operators exist in coding languages as well to perform operations on variables and values. In Java they look like the following:
 

@@ -1,4 +1,4 @@
-# Fundamental of Programming and Problem Solving (CSE-174)
+# Fundamentals of Programming and Problem Solving (CSE-174)
 [CSE-174](https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-174/index.html) 
 
 Catalog description:

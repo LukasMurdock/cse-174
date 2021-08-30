@@ -1,3 +1,7 @@
+// For posterity, this is not the code the class asked students to write.
+// This is just what I ended up with while seeing what I could do with Java.
+// Guaranteed this is garbage code, just for some context!
+
 import java.util.Scanner;
 import java.util.Arrays;
 

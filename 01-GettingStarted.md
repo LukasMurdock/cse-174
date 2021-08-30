@@ -117,7 +117,7 @@ The `main(…) {…}` block is what is called a **method** (aka a function)
 
 A method is a block of code which only runs when it is called. The `main()` method is required and you will see it in every Java program. Any code inside the `main()` method will run. You don't have to understand the keywords before and after main *yet*. We’ll get into that soon enough.
 
-You can pass objects, into methods (which are objects themselves, more on this in a bit).
+You can pass objects into methods (which are objects themselves, more on this in a bit).
 
 Why use methods? To reuse code: define the code once, and use it many times. In this case, we apparently want to create multiple cars.
 
@@ -183,6 +183,17 @@ Maybe you’re starting to notice some interesting patterns. Coding languages ha
 - double (Stores fractional numbers. Sufficient for storing 15 decimal digits)
 - boolean (Stores true or false values)
 - char (Stores a single character/letter)
+
+```java
+boolean Boolean = false;
+byte Byte = 127;
+double Double = 3.141592653589793238;
+int Integer = 2_147_483_647;
+
+short Short = 32_767;
+long Long = 9_223_372_036_854_775_807L; // Long must end with "L"
+float Float = 3.141592f; // Float must end with "f"
+```
 
 In contrast, JavaScript has the following primitive types:
 - string (Stores text)
@@ -355,7 +366,7 @@ Now, go read it.
     - double (Stores fractional numbers. Sufficient for storing 15 decimal digits)
     - boolean (Stores true or false values)
     - char (Stores a single character/letter)
-- Non-primitive Data Types:
+- A few Non-primitive Data Types:
     - String (Stores text)
     - Array (Stores multiple objects in a single variable)
     - Class

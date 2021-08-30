@@ -204,6 +204,18 @@ In contrast, JavaScript has the following primitive types:
 - symbol (Honestly, I have no idea)
 - null (the only value of its own type. However, null is a fat liar. Due to a [bug](https://2ality.com/2013/10/typeof-null.html) in JavaScript, it pretends to be an object)
 
+Why are there so many different Java types for *numbers*?! Because computer science hits memory limits. Remember Gangnam Style? It was the first YouTube video to hit over 2 billion views–it hit the limit for integers! On the other hand, historically, memory was extremely limited where *every* byte mattered, and in many cases it still does. But for most cases `double` and `long` will achieve everything you need. JavaScript only has two data types for numbers: `number` and `bigint`.
+
+
+- `byte` = 1 Byte, signed = [1 sign bit and 7 magnitude bits](https://en.wikipedia.org/wiki/Signed_number_representations#Two.27s_complement)
+- `short` = 2 Bytes, signed = 1 sign bit and 15 magnitude bits
+- `int` = 4 Bytes, signed = 1 sign bit and 31 magnitude bits
+- `long` = 8 Bytes, signed = 1 sign bit and 63 magnitude bits
+- `float` = 4 Bytes, signed = [1 sign bit, 8 exponent bits, 23 mantissa bits](https://en.wikipedia.org/wiki/Single-precision_floating-point_format)
+- `double` = 8 Bytes, signed = 1 sign bit, 11 exponent bits, 52 mantissa bits
+- `char` = 2 Bytes, unsigned = 16 magnitude bits
+- `boolean` = 1 Byte, unsigned = 8 bits
+
 Java is statically-typed, so it expects its variables to be declared before they can be assigned values. Whereas JavaScript is dynamically typed, and checks variable types at runtime.
 
 This is why the function in Java has specified types: `addNumbers(int x, int y)` but the function in JavaScript does not `addNumbers(2, 4)`.

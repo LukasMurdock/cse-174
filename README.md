@@ -1,9 +1,10 @@
 # CSE-174
 CSE-174
 
-## Resources
+## Java Resources
 - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 - [W3 Schools Java Tutorial](https://www.w3schools.com/java/default.asp)
+- [Java Language and Virtual Machine Specifications](https://docs.oracle.com/javase/specs/)
 
 ## Other Coding Resources
 - [DevIq](https://deviq.com/)

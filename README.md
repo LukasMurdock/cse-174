@@ -26,7 +26,7 @@ ISBN: 9781118026274
 - jQuery
 
 ## Parts
-1. Getting Started
+1. [Getting Started](https://github.com/LukasMurdock/cse-174/blob/main/01-GettingStarted.md)
     - Where Java runs
     - How Java runs
     - JDK, JRE, JVM, Compiler, IDE

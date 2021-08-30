@@ -1,5 +1,16 @@
-# CSE-174
-CSE-174
+# Fundamental of Programming and Problem Solving (CSE-174)
+[CSE-174](https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-174/index.html) 
+
+Catalog description:
+- Introduction to object-oriented programming (classes and objects)
+- Fundamental data types.
+- Character data and string processing.
+- User-defined data types: structured and enumerated.
+- Arrays and arrays of structures.
+- Algorithm development and efficiency considerations. 
+- Modular programming using sequence, selection, and repetition control structures.
+- Program debugging and testing.
+- Simple sorting and searching algorithms.
 
 ## Contributing
 Feel free to branch and PR. Don’t know what Github is but want to contribute? Here’s a great free resource by Kent C. Dodds on [how to start contributing on Github](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).

@@ -2,9 +2,17 @@
 CSE-174
 
 ## Java Resources
+- [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) (Wikipedia)
+- [Java Platform, Standard Edition](https://en.wikipedia.org/wiki/Java_Platform,_Standard_Edition)
 - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 - [W3 Schools Java Tutorial](https://www.w3schools.com/java/default.asp)
+- [Think Java: How to Think Like a Computer Scientist](https://greenteapress.com/thinkjava6/html/index.html)
+- [Alex Lee Java Tutorials](https://www.youtube.com/channel/UC_fFL5jgoCOrwAVoM_fBYwA) (YouTube)
+
+### Java Specifications and Documentation
 - [Java Language and Virtual Machine Specifications](https://docs.oracle.com/javase/specs/)
+- [JDK 16 Documentation](https://docs.oracle.com/en/java/javase/16/)
+- [Java Version 16 API Specification](https://docs.oracle.com/en/java/javase/16/docs/api/index.html)
 
 ## Other Coding Resources
 - [DevIq](https://deviq.com/)

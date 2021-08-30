@@ -26,7 +26,7 @@ The JRE takes takes any `.java` files we write and uses a development tool that 
 
 The JRE contains the **Java Virtual Machine (JVM)**, class libraries, and other supporting files.
 
-But just as you can have the proper knowledge to *run* the English language, actually running it is a different story. That’s where the **Java Virtual Machine (JVM)** comes in. JVM is able to run interprets and translate Bytecode into Native Machine Code Java programs and it uses the class libraries, and other supporting files provided in JRE.
+But just as you can have the proper knowledge to *run* the English language, actually running it is a different story. That’s where the **Java Virtual Machine (JVM)** comes in. JVM is able to run, interpret, and translate Bytecode into Native Machine Code Java programs and it uses the class libraries, and other supporting files provided in JRE.
 
 Don’t understand?
 
@@ -40,7 +40,7 @@ You know what this means? Two places where code runs means there are two places 
 
 Luckily they’re referred to as `compiler errors` and `runtime errors`. But, we like to have multiple names so here we go:
 - Compiler error: syntax error
-- Runtime error: logic error, exception error
+- Runtime error: exception error, logic error 
 
 ## How does code run?
 
@@ -69,9 +69,9 @@ Popular Java IDEs include:
 - jGRASP
 - DrJava
 
-Does your IDE really matter? **No**. But as a Pragmatic Programmer, you must learn your tools and make them your own. Development environments are customizable, customize yours. Pick a theme, pick a font, it’s your world to make.
+Does your IDE really matter? **No**. But as a Pragmatic Programmer, learn your tools and make them your own. Development environments are customizable, customize yours. Pick a theme, pick a font, it’s your world to make.
 
-## Help, I Can’t Read This \@\#\$\&ing \+\%\$\#
+## Welcome to Java-land
 
 ```java
 // JavaClass.java
@@ -90,15 +90,17 @@ This, fellow human,
 is the wonderful *Java*.  
 Take it all in, please.
 
-Java is verbose–it took 17 words, just so we could output 5.
+Java is verbose–it took 17 words, just so we could output 5. This looks about as accessible as Russian does, but don’t worry. You’ll soon go from “Help, I Can’t Read This \@\#\$\&ing \+\%\$\#” to, “ah, yeah, I remember when I couldn’t read this.”
+
+Let’s begin.
 
 ### Object-ion!
 
-You know what an object is. An object is something visible or tangible–our physical world is made of of objects. And objects are made up of smaller objects. A car is an object, an object with an engine, tires, and other objects–and it’s turtles all the way down (they’re all objects). And if you’re a mechanic, someone who works with the car object, you have to *understand the object*.
+You know what an object is. An object is something visible or tangible–our physical world is made of of objects. And objects are made up of smaller objects. A car is an object, an object with an engine, tires, and other objects–and it’s turtles all the way down (they’re all objects). And if you’re a mechanic, someone who works with the car object, you have to *understand the object and it’s blueprints*.
 
-Welcome to Java-land! It’s also made up of objects, but instead of having the object definitions be limited by physics, instead, in Java-land, objects are only limited by our *imagination*.
+Welcome to Java-land! It’s also made up of objects and blueprints, but instead of having the object and blueprints limited by physics, instead, in Java-land, they are limited only by our *imagination*.
 
-Now the `class` in the code above is an object too, so let’s rewrite it.
+Now the `class` in the code above is a *blueprint*, so let’s rewrite it.
 
 ```java
 // JavaClass.java
@@ -111,11 +113,13 @@ public class Car {
 // This doesn’t seem very… you know… car like…
 ```
 
+Now the `class` in the code above is a *blueprint* that explains how to construct a car *object*. **A class is a user defined blueprint or prototype from which objects are created.**
+
 Right, so what’s all that `main(…) {…}` business?
 
 The `main(…) {…}` block is what is called a **method** (aka a function)
 
-A method is a block of code which only runs when it is called. The `main()` method is required and you will see it in every Java program. Any code inside the `main()` method will run. You don't have to understand the keywords before and after main *yet*. We’ll get into that soon enough.
+A method is a block of code which only runs when it is called. The `main()` method is required in Java, and you will see it in every Java program. Any code inside the `main()` method will run. You don't have to understand the keywords before and after main *yet*. We’ll get into that soon enough.
 
 You can pass objects into methods (which are objects themselves, more on this in a bit).
 
@@ -150,7 +154,7 @@ You can see I’ve added two new methods, `addNumbers()` and `subtractNumbers()`
 
 You see how we can call `addNumbers()` multiple times and not have to add more code to handle the addition of numbers? While this is a simple example, this is an *extremely* common code pattern–[Don’t Repeat Yourself](https://deviq.com/principles/dont-repeat-yourself)!
 
-! Except the `subtractNumbers()` function isn’t subtracting! We wouldn’t receive an error anywhere for this, there’s nothing wrong with the syntax. The error is in the *logic*, and logic is left up to us humans to verify if it’s correct or not. 
+! Except we’ve made an error! The `subtractNumbers()` function isn’t subtracting (`-`), it’s adding (`+`)! We wouldn’t receive an error anywhere for this, there’s nothing wrong with the syntax. The error is in the *logic*, and logic is left up to us humans to verify if it’s correct or not. 
 
 Just to continue your inundation, if we were to rewrite this in JavaScript, it might look something like this (You can do classes in JavaScript, but I… don’t):
 
@@ -185,14 +189,14 @@ Maybe you’re starting to notice some interesting patterns. Coding languages ha
 - char (Stores a single character/letter)
 
 ```java
-boolean Boolean = false;
-byte Byte = 127;
-double Double = 3.141592653589793238;
-int Integer = 2_147_483_647;
+boolean booleanType = false;
+byte byteType = 127;
+double doubleType = 3.141592653589793238;
+int integerType = 2_147_483_647;
 
-short Short = 32_767;
-long Long = 9_223_372_036_854_775_807L; // Long must end with "L"
-float Float = 3.141592f; // Float must end with "f"
+short shortType = 32_767;
+long longType = 9_223_372_036_854_775_807L; // Long must end with "L"
+float floatType = 3.141592f; // Float must end with "f"
 ```
 
 In contrast, JavaScript has the following primitive types:
@@ -204,8 +208,11 @@ In contrast, JavaScript has the following primitive types:
 - symbol (Honestly, I have no idea)
 - null (the only value of its own type. However, null is a fat liar. Due to a [bug](https://2ality.com/2013/10/typeof-null.html) in JavaScript, it pretends to be an object)
 
-Why are there so many different Java types for *numbers*?! Because computer science hits memory limits. Remember Gangnam Style? It was the first YouTube video to hit over 2 billion views–it hit the limit for integers! On the other hand, historically, memory was extremely limited where *every* byte mattered, and in many cases it still does. But for most cases `double` and `long` will achieve everything you need. JavaScript only has two data types for numbers: `number` and `bigint`.
+Why are there so many different Java types for *numbers*?! Because computer science hits memory limits. Remember Gangnam Style? It was the first YouTube video to hit over 2 billion views, and it hit the limit for integers! These limits have more to do with Computer Science than coding.
 
+On the other hand, historically, memory was extremely limited where *every* byte mattered, and in many cases it still does. But for most cases `double` and `long` will achieve everything you need. And JavaScript only has two data types for numbers: `number` and `bigint`.
+
+The different types in Java are different sizes, what do these mean precisely? Honestly, don’t know. Probably something like “space in the memory” or something.
 
 - `byte` = 1 Byte, signed = [1 sign bit and 7 magnitude bits](https://en.wikipedia.org/wiki/Signed_number_representations#Two.27s_complement)
 - `short` = 2 Bytes, signed = 1 sign bit and 15 magnitude bits
@@ -215,6 +222,8 @@ Why are there so many different Java types for *numbers*?! Because computer scie
 - `double` = 8 Bytes, signed = 1 sign bit, 11 exponent bits, 52 mantissa bits
 - `char` = 2 Bytes, unsigned = 16 magnitude bits
 - `boolean` = 1 Byte, unsigned = 8 bits
+
+### Static vs. Dynamic Typing
 
 Java is statically-typed, so it expects its variables to be declared before they can be assigned values. Whereas JavaScript is dynamically typed, and checks variable types at runtime.
 
@@ -246,6 +255,8 @@ Now we have types specified! Hopefully you see a few patterns of code here:
 - Objects and methods (aka functions)
     - Functions can accept objects
     - Functions can return objects
+
+### Objects
 
 Now, it’s time to introduce non-primitive values—types that let us make our own values.
 

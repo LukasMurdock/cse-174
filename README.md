@@ -1,6 +1,9 @@
 # CSE-174
 CSE-174
 
+## Contributing
+Feel free to branch and PR. Don’t know what Github is but want to contribute? Here’s a great free resource by Kent C. Dodds on [how to start contributing on Github](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
+
 ## Java Resources
 - [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) (Wikipedia)
 - [Java Platform, Standard Edition](https://en.wikipedia.org/wiki/Java_Platform,_Standard_Edition) (Wikipedia)

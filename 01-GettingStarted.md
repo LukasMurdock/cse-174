@@ -55,6 +55,10 @@ Here’s an image from the internet.
 1. Compile step: `JavaClass.java` Java -> Compiler -> `JavaClass.class` Bytecode
 2. Run step: `JavaClass.class` Bytecode -> JVM -> Runtime (Yo code is runnin bb)
 
+![Figure 1.2 from Think Java](https://greenteapress.com/thinkjava6/html/thinkjava6002.png)
+
+Java is compiled and interpreted before running.
+
 The compile step is kinda like how you can’t read the next volume of your favorite series because it was written in another language, so you have to get a version converted into a language that you can read. Once you have the compiled version you can run it. Without the compile step, ya can’t do nothin with it.
 
 ## Okay IDK, IDE?

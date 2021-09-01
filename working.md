@@ -1,3 +1,18 @@
+## Type Casting
+The simplest way to convert a floating-point value to an integer is to use a type cast, so called because it molds or “casts” a value from one type to another. The syntax for type casting is to put the name of the type in parentheses and use it as an operator.
+
+```java
+double pi = 3.14159;
+int x = (int) pi;
+System.out.println(x)
+// 3
+```
+
+Converting to an integer it simply throws away the fractional part.
+
+**type cast**: An operation that explicitly converts one data type into another. In Java it appears as a type name in parentheses, like (int).
+
+
 ## Java Final Modifier
 Want a variable to never be capable of being changed? Java provides a language feature that enforces that rule, the keyword `final`.
 

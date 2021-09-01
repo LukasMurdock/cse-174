@@ -1,3 +1,18 @@
+## Java Final Modifier
+Want a variable to never be capable of being changed? Java provides a language feature that enforces that rule, the keyword `final`.
+
+Declaring that a variable is final means that it cannot be reassigned once it has been initialized. If you try, the compiler reports an error. Variables declared as final are called constants. 
+
+By convention, names for constants are all uppercase, with the underscore character (_) between words.
+
+- final `primitive variables` can be set only once (constant)
+    - `final double cmPerInch = 2.54;`
+- final `object variables` may be modified, final applies to object reference.
+- final `fields` can be set only once (constant)
+- final `methods` can’t be overridden, hidden
+- final `classes` can't be extended
+
+
 ## More on Objects
 Objects and methods
 Use standard Object methods: equals(), toString(), compareTo()

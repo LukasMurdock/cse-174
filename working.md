@@ -1,3 +1,7 @@
+## ASCII // character codes
+American Standard Code for Information Interchange, is a character encoding standard for electronic communication.
+
+
 ## Type Casting
 The simplest way to convert a floating-point value to an integer is to use a type cast, so called because it molds or “casts” a value from one type to another. The syntax for type casting is to put the name of the type in parentheses and use it as an operator.
 

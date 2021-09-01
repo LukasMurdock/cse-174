@@ -49,6 +49,7 @@ ISBN: 9781118026274
 - `welcom`
 - `jQuery`
 - `data types`
+- `variables`
 
 ## Parts
 1. [Getting Started](https://github.com/LukasMurdock/cse-174/blob/main/01-GettingStarted.md)

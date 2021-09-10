@@ -107,7 +107,7 @@ Welcome to Java-land! It’s also made up of objects and blueprints, but instead
 Now the `class` in the code above is a *blueprint*, so let’s rewrite it.
 
 ```java
-// JavaClass.java
+// Car.java
 public class Car {
     public static void main(String[] args) {
         System.out.println("This doesn’t seem very… you know… car like…");
@@ -132,7 +132,7 @@ Why use methods? To reuse code: define the code once, and use it many times. In 
 I no longer like this example, so I’m going to rewrite it again to be a calculator. Coding makes it easy to not repeat yourself, say you don’t want to remember how to add and subtract, you can just abstract that math into a method and then you’ll never have to think about it again!
 
 ```java
-// JavaClass.java
+// Calculator.java
 public class Calculator {
     public static void main(String[] args) {
         System.out.println(addNumbers(400, 20));

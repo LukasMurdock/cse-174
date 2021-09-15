@@ -52,6 +52,7 @@ ISBN: 9781118026274
 - `variables`
 - `practice`
 - `Scanner`
+- `file i/o`
 
 ## Parts
 1. [Getting Started](https://github.com/LukasMurdock/cse-174/blob/main/01-GettingStarted.md)

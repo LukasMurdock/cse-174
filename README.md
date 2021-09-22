@@ -53,6 +53,8 @@ ISBN: 9781118026274
 - `practice`
 - `Scanner`
 - `file i/o`
+- `logical expressions`
+- `conditions`
 
 ## Parts
 1. [Getting Started](https://github.com/LukasMurdock/cse-174/blob/main/01-GettingStarted.md)

@@ -39,6 +39,7 @@ Feel free to branch and PR. Don’t know what Github is but want to contribute? 
 - [Don’t learn to code](https://daedtech.com/dont-learn-to-code-learn-to-automate/)
 - [Don't Call Yourself A Programmer, And Other Career Advice](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)
 - [”With a computer you can make things. You can code, you can make things and create things that have never before existed and do things that have never been done before.”](https://impossiblehq.com/an-unexpected-ass-kicking/)
+- [CodeKata: Code Practice Sessions](http://codekata.com/)
 
 ## Textbook
 Big Java Late Objects  

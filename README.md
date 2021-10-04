@@ -56,6 +56,9 @@ ISBN: 9781118026274
 - `file i/o`
 - `logical expressions`
 - `conditions`
+- `while loop`
+- `for loop`
+- `fall break`
 
 ## Parts
 1. [Getting Started](https://github.com/LukasMurdock/cse-174/blob/main/01-GettingStarted.md)

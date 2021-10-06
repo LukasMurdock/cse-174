@@ -60,6 +60,23 @@ ISBN: 9781118026274
 - `for loop`
 - `fall break`
 
+## Zines
+### Fundamentals of Programming with Java
+- [Variables](https://github.com/LukasMurdock/cse-174/blob/main/zines/variables.png)
+- [Data Types](https://github.com/LukasMurdock/cse-174/blob/main/zines/data_types.png)
+- [Type Casting](https://github.com/LukasMurdock/cse-174/blob/main/zines/type-casting.png)
+- [Operators](https://github.com/LukasMurdock/cse-174/blob/main/zines/operators.png)
+- [Conditional Statements](https://github.com/LukasMurdock/cse-174/blob/main/zines/conditional-statements.png)
+- [Loops](https://github.com/LukasMurdock/cse-174/blob/main/zines/loops.png)
+- Methods
+- Objects
+- Classes
+
+### Java Classes
+- System.out (output display, print methods)
+- Scanner (read keyboard, read file)
+- PrintWriter (write to file)
+
 ## Parts
 1. [Getting Started](https://github.com/LukasMurdock/cse-174/blob/main/01-GettingStarted.md)
     - Where Java runs

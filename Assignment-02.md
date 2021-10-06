@@ -28,7 +28,7 @@ Need to know:
 ```java
 public class Assignment2 {
     public static void main(String[] args) {
-        // Uses the Scanner class to read from the keyboard 
+        // Uses a new Scanner object to read from the keyboard 
         Scanner keyboardReader = new Scanner(System.in);
         System.out.printf("Enter an input file name: ");
         // Saves the next keyboard input as a String

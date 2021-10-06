@@ -314,6 +314,7 @@ public class Assignment2 {
         System.out.printf("Enter an input file name: ");
         String inputFileName = keyboardReader.next();
 
+        // Step 2: Store given filename contents
         File inputFileObject = new File(inputFileName);
         Scanner fileReader = new Scanner(inputFileObject);
         String fileContents = "";
@@ -333,8 +334,10 @@ public class Assignment2 {
                 fileContents = fileContents + "\n";
             }
         }
+        // Step 3: Print given filename contents
         System.out.println(fileContents);
 
+        // Step 4: Ask user if they want to print in a file
         String wantsToPrint = "";
 
         while (!wantsToPrint.equals("y") && !wantsToPrint.equals("n")) {

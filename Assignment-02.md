@@ -327,11 +327,22 @@ public class Assignment2 {
         File inputFileObject = new File(inputFileName);
         Scanner fileReader = new Scanner(inputFileObject);
         String fileContents = "";
+        boolean isFirstWord = true;
 
         while (fileReader.hasNext()) {
-            if(fileReader.hasNextInt()){
+            if (fileReader.hasNextInt()) {
                 int lengthOfNextWord = fileReader.nextInt();
                 String word = "";
+
+                // If this is the first word, we need to set isFirstWord to
+                // false
+                // for the next loop
+                if (isFirstWord) {
+                    isFirstWord = false;
+                } else {
+                    // Add space to file
+                    fileContents = fileContents + " ";
+                }
 
                 for (int i = 0; i < lengthOfNextWord; i++) {
                     String letter = fileReader.next();
@@ -340,6 +351,8 @@ public class Assignment2 {
 
                 fileContents = fileContents + word;
             } else if (fileReader.next().equals("#")) {
+                // Set first word to true if there’s a new line!
+                isFirstWord = true;
                 fileContents = fileContents + "\n";
             }
         }

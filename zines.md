@@ -1,4 +1,13 @@
 ## Programming Fundamentals with Java
+- 🎨 Variables, expressions, and assignment
+- 🎨 Data Types
+- 🎨 Type Casting
+- 🎨 Conditionals
+- 🎨 Loops
+- Methods
+- Objects
+- Classes
+
 ![](https://github.com/LukasMurdock/cse-174/blob/main/zines/variables.png)
 ![](https://github.com/LukasMurdock/cse-174/blob/main/zines/data_types.png)
 ![](https://github.com/LukasMurdock/cse-174/blob/main/zines/type-casting.png)

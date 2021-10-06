@@ -8,11 +8,14 @@ j o y  !
 ```
 
 ## What you need to know / what you need to learn
-- How to print
-- How to get input from keyboard
-- How to read from a file
-- How to write to a file
-- How to write loops
+- Learn how to print (System.out)
+- [Learn how to write conditional statements](https://github.com/LukasMurdock/cse-174/blob/main/zines/conditional-statements.png)
+- Learn how to get input from keyboard (Scanner)
+- Learn how to read from a file (Scanner)
+- Learn how to write to a file (PrintWriter)
+- [Learn how to write loops](https://github.com/LukasMurdock/cse-174/blob/main/zines/loops.png)
+
+[See the current zines on Fundamentals of Programming with Java](https://github.com/LukasMurdock/cse-174/blob/main/zines.md)
 
 ## Steps
 1. Ask user to “Enter an input file name: ”

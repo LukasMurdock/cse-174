@@ -333,14 +333,9 @@ public class Assignment2 {
             if (fileReader.hasNextInt()) {
                 int lengthOfNextWord = fileReader.nextInt();
                 String word = "";
-
-                // If this is the first word, we need to set isFirstWord to
-                // false
-                // for the next loop
                 if (isFirstWord) {
                     isFirstWord = false;
                 } else {
-                    // Add space to file
                     fileContents = fileContents + " ";
                 }
 
@@ -348,10 +343,8 @@ public class Assignment2 {
                     String letter = fileReader.next();
                     word = word + letter;
                 }
-
                 fileContents = fileContents + word;
             } else if (fileReader.next().equals("#")) {
-                // Set first word to true if there’s a new line!
                 isFirstWord = true;
                 fileContents = fileContents + "\n";
             }

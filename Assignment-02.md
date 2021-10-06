@@ -103,7 +103,7 @@ while (fileReader.hasNext()) {
             word = word + letter;
         }
         // Add the word to the file contents
-        fileContents = fileContents + " " + word;
+        fileContents = fileContents + word;
     } else if (fileReader.next().equals("#")) {
         // Insert a new line
         fileContents = fileContents + "\n";
@@ -147,7 +147,7 @@ public class Assignment2 {
                     word = word + letter;
                 }
 
-                fileContents = fileContents + " " + word;
+                fileContents = fileContents + word;
             } else if (fileReader.next().equals("#")) {
                 fileContents = fileContents + "\n";
             }
@@ -200,7 +200,7 @@ while (fileReader.hasNext()) {
             word = word + letter;
         }
 
-        fileContents = fileContents + " " + word;
+        fileContents = fileContents + word;
     } else if (fileReader.next().equals("#")) {
         // Set first word to true if there’s a new line!
         isFirstWord = true;
@@ -239,7 +239,7 @@ public class Assignment2 {
                     word = word + letter;
                 }
 
-                fileContents = fileContents + " " + word;
+                fileContents = fileContents + word;
             } else if (fileReader.next().equals("#")) {
                 fileContents = fileContents + "\n";
             }
@@ -338,7 +338,7 @@ public class Assignment2 {
                     word = word + letter;
                 }
 
-                fileContents = fileContents + " " + word;
+                fileContents = fileContents + word;
             } else if (fileReader.next().equals("#")) {
                 fileContents = fileContents + "\n";
             }

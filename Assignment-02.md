@@ -7,7 +7,14 @@ r   e a    k # 6 E n
 j o y  !
 ```
 
-Steps:
+## What you need to know / what you need to learn
+- How to print
+- How to get input from keyboard
+- How to read from a file
+- How to write to a file
+- How to write loops
+
+## Steps
 1. Ask user to “Enter an input file name: ”
 2. Store given filename contents
     - 2.1: Read the dumb file formatting
@@ -16,13 +23,6 @@ Steps:
 4. Ask user if they want to print in a file.
     - 4.1: Continue asking until user inputs `y` or `n`
     - 4.3: If yes, print given filename contents to file
-
-Need to know:
-- How to print
-- How to get input from keyboard
-- How to read from a file
-- How to write to a file
-- How to write loops
 
 ## Step 1: Ask user to “Enter an input file name: ”
 ```java

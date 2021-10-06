@@ -1,5 +1,7 @@
 ## Assignment 02
 
+*Want a shortcut to this page? Type in `cse-a2.lukas.icu` into the search bar and it’ll redirect you here!*
+
 Assignment: Read from a file containing the following
 ```
 5 H a  p p  y  4 F a l l  5 B

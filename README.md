@@ -1,3 +1,6 @@
+> Good code is code that can be understood by a junior engineer. Great code can be understood by a first year CS freshman. The best code is no code at all.  
+> – [A Drunken Developer](https://www.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
+
 # Fundamentals of Programming and Problem Solving (CSE-174)
 [CSE-174 catalog description](https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-174/index.html):
 - Introduction to object-oriented programming (classes and objects)

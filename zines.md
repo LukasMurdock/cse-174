@@ -1,4 +1,4 @@
-*Want a shortcut to this page? Type in [`cse-a2.lukas.icu`](http://cse-zines.lukas.icu) into the search bar and it’ll redirect you here!*
+*Want a shortcut to this page? Type in [`cse-zines.lukas.icu`](http://cse-zines.lukas.icu) into the search bar and it’ll redirect you here!*
 
 ## Programming Fundamentals with Java
 - 🎨 Variables, expressions, and assignment

@@ -15,7 +15,7 @@
 
 ---
 
-This lab is split into two submissions.
+This lab is split into two submissions. Part 1 is the bulk of it. Part 2 is catching errors.
 
 I find it helps to break down what’s required into explicit steps. So let‘s do that first.
 
@@ -29,20 +29,10 @@ I find it helps to break down what’s required into explicit steps. So let‘s 
     - 2.1: Make the cells row % columns
 
 ### Part 2 Steps
-1. Ask a [number] from user
-    - 1.1: If [number] <= 0 throw new IllegalArgumentException();
-        - 1.1.1: Catch IllegalArgumentException and print "No result with an input less than or equal to zero!"
-    - 1.2: If NoSuchElementException, print "Invalid Input!"
-        - 1.2.1: Ask a [number] from user
-    - 1.3: If IllegalArgumentException
-        - 1.3.1: Ask a [number] from user
-2. Make [number] rows, and [number] columns
-    - 2.1: Make the cells row % columns
-3. Print rows and columns
-4. Ask if they want to repeat
-    - 4.1: Continue asking until a no (n, N) or yes (y, Y)
-    - 4.2: If yes, repeat
-    - 4.3: If no, print "End" and end
+1. Catch NoSuchElementException and print "Invalid Input!"
+2. If [number] > 0 then print, else throw new IllegalArgumentException();
+    - 2.1: Catch IllegalArgumentException and print "No result with an input less than or equal to zero!"
+
 
 ## Part 1
 Okay, so we’re really all we’re looking to do in part 1 is:
@@ -274,8 +264,73 @@ public class Lab8Part1 {
 
 ## Part 2
 
+Workthrough WIP, still not passing the hidden test though.
+
+Working Code
+```java
+import java.util.NoSuchElementException;
+import java.util.Scanner;
+
+public class Lab8Part2 {
+    public static void main(String[] args) {
+        boolean wantsToRepeat = false;
+        Scanner keyboardReader = new Scanner(System.in);
+        do {
+            int enteredNumber = 0;
+            boolean validRepeatInput = false;
+            System.out.print("Enter an int number: ");
+            try {
+                enteredNumber = keyboardReader.nextInt();
+
+                if (enteredNumber > 0) {
+                    for (int rowIndex = 1; rowIndex < enteredNumber + 1; rowIndex++) {
+                        for (int columnIndex = 1; columnIndex < enteredNumber + 1; columnIndex++) {
+                            String stringToPrint = (rowIndex % columnIndex == 0)
+                                ? "O" : "X";
+                            System.out.print(stringToPrint);
+                        }
+                        System.out.println();
+                    }
+                } else {
+                    throw new IllegalArgumentException();
+                }
+            } catch (NoSuchElementException error) {
+                String waste = keyboardReader.next();
+                System.out.println("Invalid Input!");
+                validRepeatInput = true;
+            } catch (IllegalArgumentException error) {
+                System.out.println(
+                    "No result with an input less than or equal to zero!"
+                );
+            }
+
+            while (!validRepeatInput) {
+                System.out.print("Do you want to repeat (y/n)? ");
+                String userRepeatString = keyboardReader.next();
+                if (
+                    userRepeatString.equals("y")
+                        || userRepeatString.equals("Y")
+                        || userRepeatString.equals("n")
+                        || userRepeatString.equals("N")
+                ) {
+                    validRepeatInput = true;
+                    wantsToRepeat = userRepeatString.equals("y")
+                        || userRepeatString.equals("Y");
+                }
+            }
+        } while (wantsToRepeat);
+
+        System.out.println("End");
+    }
+}
+```
+
+---
+
+# Extra?
+
 ### Functions
-I’m too tired to not make this with functions right now. We haven’t talked about methods yet in class, but the code blocks should still be of some use.
+I usually make functions to handle big code blocks. Here’s how I did the lab.
 - int getNumberFromUser
 - boolean getRepeatFromUser
 - printTable(int)

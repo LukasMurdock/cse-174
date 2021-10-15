@@ -198,7 +198,7 @@ public class Lab8Part1 {
                 }
             }
 
-            // Step 1.2: Ask if they want to repeat until a no (n, N) or yes
+            // Step 1.2: Ask "Do you want to repeat" until a no (n, N) or yes (y, Y)
             // (y, Y)
             boolean validInput = false;
             while (!validInput) {
@@ -248,7 +248,7 @@ public class Lab8Part1 {
                 }
             }
 
-            // Step 1.2: Ask if they want to repeat until a no (n, N) or yes
+            // Step 1.2: Ask "Do you want to repeat" until a no (n, N) or yes (y, Y)
             // (y, Y)
             boolean validInput = false;
             while (!validInput) {

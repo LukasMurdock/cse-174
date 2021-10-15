@@ -158,10 +158,10 @@ public class Lab8Part1 {
                         || userRepeatString.equals("n")
                         || userRepeatString.equals("N")
                 ) {
-                    // Inputs are either now either yes or no
+                    // Inputs are now either either yes (y, Y) or no (n, N)
                     validInput = true;
-                    // Set wantsToRepeat to true if user said "y" or "Y"
-                    // otherwise sets wantsToRepeat to false
+                    // Set variable wantsToRepeat to true if user said "y" or "Y"
+                    // otherwise set wantsToRepeat to false
                     wantsToRepeat = userRepeatString.equals("y")
                         || userRepeatString.equals("Y")
                 }

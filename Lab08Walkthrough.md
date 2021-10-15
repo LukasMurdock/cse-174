@@ -23,7 +23,7 @@ I find it helps to break down what’s required into explicit steps. So let‘s 
 ### Part 1 Steps
 1. Ask a [number] from user
     - 1.1: If number >= 0, print
-    - 1.2: Ask if they want to repeat until a no (n, N) or yes (y, Y)
+    - 1.2: Ask “Do you want to repeat” until a no (n, N) or yes (y, Y)
         - 1.2.1: If they want to repeat, repeat
 2. Print [number] rows, and [number] columns
     - 2.1: Make the cells row % columns
@@ -32,7 +32,7 @@ I find it helps to break down what’s required into explicit steps. So let‘s 
 1. Ask a [number] from user
     - 1.1: If [number] <= 0 throw new IllegalArgumentException();
         - 1.1.1: Catch IllegalArgumentException and print "No result with an input less than or equal to zero!"
-    - 1.2: If NoSuchElementException, print "InvalidInput!"
+    - 1.2: If NoSuchElementException, print "Invalid Input!"
         - 1.2.1: Ask a [number] from user
     - 1.3: If IllegalArgumentException
         - 1.3.1: Ask a [number] from user
@@ -45,7 +45,7 @@ I find it helps to break down what’s required into explicit steps. So let‘s 
     - 4.3: If no, print "End" and end
 
 ## Part 1
-Okay, so we’re really all we’re looking to do is:
+Okay, so we’re really all we’re looking to do in part 1 is:
 1. Ask a [number] from user
 2. Print [number] rows, and [number] columns
 3. Ask if they want to repeat
@@ -53,7 +53,7 @@ Okay, so we’re really all we’re looking to do is:
 Here’s a repeat of the detailed steps:
 1. Ask a [number] from user
     - 1.1: If number >= 0, print
-    - 1.2: Ask if they want to repeat until a no (n, N) or yes (y, Y)
+    - 1.2: Ask “Do you want to repeat” until a no (n, N) or yes (y, Y)
         - 1.2.1: If they want to repeat, repeat
 2. Print [number] rows, and [number] columns
     - 2.1: Make the cells row % columns
@@ -93,7 +93,7 @@ public class Lab8Part1 {
 }
 ```
 
-### Step 1.2: Ask if they want to repeat until a no (n, N) or yes (y, Y)
+### Step 1.2: Ask “Do you want to repeat” until a no (n, N) or yes (y, Y)
 ```java
 public class Lab8Part1 {
     public static void main(String[] args) {
@@ -147,7 +147,7 @@ public class Lab8Part1 {
                 System.out.println(enteredNumber);
             }
             
-            // Step 1.2: Ask if they want to repeat until a no (n, N) or yes (y, Y)
+            // Step 1.2: Ask "Do you want to repeat" until a no (n, N) or yes (y, Y)
             boolean validInput = false;
             while (!validInput) {
                 System.out.print("Do you want to repeat (y/n)? ");

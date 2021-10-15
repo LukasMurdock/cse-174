@@ -134,10 +134,11 @@ public class Lab8Part1 {
     public static void main(String[] args) {
         // Initialize wantsToRepeat outside loop, so we can access it in conditional
         boolean wantsToRepeat;
+        // Move scanner outside loop so you pass the dumb test
+        Scanner keyboardReader = new Scanner(System.in);
         // Wrap in do-while loop
         do {
             // Step 1: Ask a number from user
-            Scanner keyboardReader = new Scanner(System.in);
             System.out.print("Enter an int number: ");
             int enteredNumber = keyboardReader.nextInt();
             
@@ -176,9 +177,9 @@ public class Lab8Part1 {
     public static void main(String[] args) {
         // Step 1.2.1: If they want to repeat, repeat
         boolean wantsToRepeat = false;
+        Scanner keyboardReader = new Scanner(System.in);
         do {
             // Step 1: Ask a number from user
-            Scanner keyboardReader = new Scanner(System.in);
             System.out.print("Enter an int number: ");
             int enteredNumber = keyboardReader.nextInt();
 
@@ -227,9 +228,9 @@ public class Lab8Part1 {
     public static void main(String[] args) {
         // Step 1.2.1: If they want to repeat, repeat
         boolean wantsToRepeat = false;
+        Scanner keyboardReader = new Scanner(System.in);
         do {
             // Step 1: Ask a number from user
-            Scanner keyboardReader = new Scanner(System.in);
             System.out.print("Enter an int number: ");
             int enteredNumber = keyboardReader.nextInt();
 

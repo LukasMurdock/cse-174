@@ -49,7 +49,7 @@ I find it helps to break down what’s required into explicit steps. So let‘s 
     - 4.3: If no, print "End" and end
 
 ### Functions
-I’m too tired to not make this with functions right now, still a WIP.
+I’m too tired to not make this with functions right now. We haven’t talked about methods yet in class, but the code blocks should still be of some use.
 - int getNumberFromUser
 - boolean getRepeatFromUser
 - printTable(int)

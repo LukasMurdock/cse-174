@@ -45,10 +45,18 @@ I find it helps to break down what’s required into explicit steps. So let‘s 
     - 4.3: If no, print "End" and end
 
 ## Part 1
-Okay, so we’re looking to:
+Okay, so we’re really all we’re looking to do is:
 1. Ask a [number] from user
 2. Print [number] rows, and [number] columns
 3. Ask if they want to repeat
+
+Here’s a repeat of the detailed steps:
+1. Ask a [number] from user
+    - 1.1: If number >= 0, print
+    - 1.2: Ask if they want to repeat until a no (n, N) or yes (y, Y)
+        - 1.2.1: If they want to repeat, repeat
+2. Print [number] rows, and [number] columns
+    - 2.1: Make the cells row % columns
 
 ### Step 1: Ask a number from user
 ```java

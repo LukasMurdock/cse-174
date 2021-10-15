@@ -21,10 +21,6 @@ I find it helps to break down what’s required into explicit steps. So let‘s 
 
 ## Steps
 ### Part 1 Steps
-
-### Step 1.1: If number <= 0, print
-### Step 1.2: Ask if they want to repeat until a no (n, N) or yes (y, Y)
-
 1. Ask a [number] from user
     - 1.1: If number >= 0, print
     - 1.2: Ask if they want to repeat until a no (n, N) or yes (y, Y)

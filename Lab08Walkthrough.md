@@ -29,10 +29,9 @@ I find it helps to break down what’s required into explicit steps. So let‘s 
     - 2.1: Make the cells row % columns
 
 ### Part 2 Steps
-1. Catch NoSuchElementException and print "Invalid Input!"
-2. If [number] > 0 then print, else throw new IllegalArgumentException();
-    - 2.1: Catch IllegalArgumentException and print "No result with an input less than or equal to zero!"
-
+1. Try to read the next input as a number
+    - 1.1 If the next input is not a number, it will throw `InputMismatchException` error. Catch that.
+2. If the entered number is less than or equal to 0, the lab wants us to throw `IllegalArgumentException`. Catch that.
 
 ## Part 1
 Okay, so we’re really all we’re looking to do in part 1 is:
@@ -280,7 +279,6 @@ Steps:
 2. If the entered number is less than or equal to 0, the lab wants us to throw `IllegalArgumentException`. Catch that.
 
 
-Working Code
 ```java
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -348,8 +346,9 @@ public class Lab8Part2 {
 
 # Extra?
 
-### Functions
 I usually make functions to handle big code blocks. Here’s how I did the lab.
+
+### Functions
 - int getNumberFromUser
 - boolean getRepeatFromUser
 - printTable(int)

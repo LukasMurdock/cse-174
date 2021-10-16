@@ -276,7 +276,7 @@ One way to prevent these events from making our code fail is to implement a try-
 
 Steps:
 1. Try to read the next input as a number
-    1.1 If the next input is not a number, it will throw `InputMismatchException` error. Catch that.
+    - 1.1 If the next input is not a number, it will throw `InputMismatchException` error. Catch that.
 2. If the entered number is less than or equal to 0, the lab wants us to throw `IllegalArgumentException`. Catch that.
 
 

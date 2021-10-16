@@ -262,9 +262,23 @@ public class Lab8Part1 {
 }
 ```
 
-## Part 2
+## Part 2: Catch them exceptions
 
-Workthrough WIP, code now passes hidden test.
+Using the `nextInt()` method on the Scanner object means we can determine at least two events that would make our code fail:
+1. If what is read is not an int
+2. If there is nothing to read
+
+In both of these cases, [according to the Java Docs on the Scanner class](https://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html#:~:text=public%C2%A0int%C2%A0nextInt()-,Scans%20the%20next%20token%20of%20the%20input%20as%20an%20int.,-An%20invocation%20of), an error will be thrown:
+1. If what is read is not an int, `InputMismatchException` will be thrown.
+2. If there is nothing to read, `NoSuchElementException` will be thrown.
+
+One way to prevent these events from making our code fail is to implement a try-catch block. A try-catch block lets you define a block of code to *try*, and a block of code to run if a specified error is *caught* in the try block.
+
+Steps:
+1. Try to read the next input as a number
+    1.1 If the next input is not a number, it will throw `InputMismatchException` error. Catch that.
+2. If the entered number is less than or equal to 0, the lab wants us to throw `IllegalArgumentException`. Catch that.
+
 
 Working Code
 ```java
@@ -279,6 +293,7 @@ public class Lab8Part2 {
             int enteredNumber = 0;
             boolean validRepeatInput = false;
             System.out.print("Enter an int number: ");
+            // declare a try block to try to read the next input as a number
             try {
                 enteredNumber = keyboardReader.nextInt();
 
@@ -292,12 +307,16 @@ public class Lab8Part2 {
                         System.out.println();
                     }
                 } else {
+                    // if the next input is less than or equal to zero, throw IllegalArgumentException
                     throw new IllegalArgumentException();
                 }
-            } catch (NoSuchElementException error) {
+            // catch the InputMismatchException that is thrown if number is not an int
+            } catch (InputMismatchException error) {
+                // Reading from the keyboard failed, so we need to read in the value to clear out the Scanner input.
                 String waste = keyboardReader.next();
                 System.out.println("Invalid Input!");
                 validRepeatInput = true;
+            // catch the IllegalArgumentException that we throw if number <= 0
             } catch (IllegalArgumentException error) {
                 System.out.println(
                     "No result with an input less than or equal to zero!"

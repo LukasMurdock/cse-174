@@ -1,4 +1,4 @@
-> *Currently a work in progress, but the code blocks should be useful*
+*Want a shortcut to this page? Type in [`cse-lab8.lukas.icu`](https://cse-lab8.lukas.icu) into the search bar and it’ll redirect you here!*
 
 *psst.* Hey, If you got more value out of this than a cup of coffee, consider buying me one.  
 

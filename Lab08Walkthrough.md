@@ -264,7 +264,7 @@ public class Lab8Part1 {
 
 ## Part 2
 
-Workthrough WIP, still not passing the hidden test though.
+Workthrough WIP, code now passes hidden test.
 
 Working Code
 ```java
@@ -273,7 +273,7 @@ import java.util.Scanner;
 
 public class Lab8Part2 {
     public static void main(String[] args) {
-        boolean wantsToRepeat = false;
+        boolean wantsToRepeat = true;
         Scanner keyboardReader = new Scanner(System.in);
         do {
             int enteredNumber = 0;

@@ -14,3 +14,4 @@ When there’s many lines of code, identify the location of your question:
 
 Asking better questions is of great help as a programmer and elsewhere.
 
+Zoom invite link: [https://miamioh.zoom.us/j/9454382845](https://miamioh.zoom.us/j/9454382845)

@@ -1,14 +1,14 @@
 Key concepts:
-- Part 1: What is code?
-- Expressions
-- Types
-- Variables
-- Arrays
-- Methods
-- Loops
-- Scope
-- Objects
-- Classes
+- Expressions: The representation of a value
+- Variables: Same as math, it’s useful to have a quantity which admits of an infinite number of values in the same expression
+- Types: Numbers and words are different
+- Arrays: "Put in order"
+- Loops: It’s useful to instruct something to run until we say stop
+- Scope: It’s useful to have things only exist in a scope (e.g. variable
+index)
+- Methods: It’s useful to make code easily reusable
+- Objects: It’s useful to encapsulate methods
+- Classes: It’s useful to construct new objects
 
 Resources:
 - [Learn Java in 14 minutes](https://youtu.be/RRubcjpTkks)

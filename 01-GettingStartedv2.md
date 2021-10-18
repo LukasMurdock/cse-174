@@ -6,7 +6,7 @@ Key concepts:
 - Loops: It’s useful to have something to run until we say stop
 - Scope: It’s useful to have things only exist in a scope (e.g. variable
 index)
-- Methods: It’s useful to make code easily reusable
+- Methods: It’s useful to have easily reusable code
 - Objects: It’s useful to encapsulate methods
 - Classes: It’s useful to construct new objects
 

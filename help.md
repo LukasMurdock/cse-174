@@ -1,7 +1,9 @@
 The material covered in this class is confusing, and I’m confident there are plenty of you with questions. This is a great time to ask them.
 
 ## Let’s Meet (Online)
-You don’t have to turn your camera on. I’ll have mine on but don‘t feel pressure to turn yours on.
+I hope we can make this collaborative instead of something like an additional lecture.
+
+You don’t have to turn your camera on. I’ll have mine on but don‘t feel pressured to turn yours on if you don’t want to.
 
 Try to make your questions specific.
 

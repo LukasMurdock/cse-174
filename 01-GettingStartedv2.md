@@ -5,6 +5,8 @@ Key concepts:
 - Variables
 - Arrays
 - Methods
+- Loops
+- Scope
 - Objects
 - Classes
 

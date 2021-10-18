@@ -3,7 +3,7 @@ Key concepts:
 - Variables: Same as math, it’s useful to have a quantity which admits of an infinite number of values in the same expression
 - Types: Numbers and words are different
 - Arrays: "Put in order"
-- Loops: It’s useful to instruct something to run until we say stop
+- Loops: It’s useful to have something to run until we say stop
 - Scope: It’s useful to have things only exist in a scope (e.g. variable
 index)
 - Methods: It’s useful to make code easily reusable

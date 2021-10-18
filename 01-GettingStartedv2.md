@@ -3,9 +3,16 @@ Key concepts:
 - Expressions
 - Types
 - Variables
+- Arrays
 - Methods
 - Objects
 - Classes
+
+Resources:
+- [Learn Java in 14 minutes](https://youtu.be/RRubcjpTkks)
+- [w3](https://www.w3schools.com/java/)
+- https://www.codecademy.com/learn/learn-java
+- https://www.learnjavaonline.org/
 
 # Getting Started With Programming
 

@@ -370,3 +370,33 @@ for(int index = 0; index < arrayOfGrades.length; index = index + 1){
 }
 ```
 
+## Methods: It’s useful to have easily reusable code
+
+You know what sucks? When you’re in math class and you have to write down the same expression over and over and over again.
+
+It also sucks having to write the same code over and over and over again.
+
+Programmers have a principle called [Don’t Repeat Yourself](https://deviq.com/principles/dont-repeat-yourself) (DRY).
+
+Say, for example, you wrote some code to solve a Pythagorean theorem.
+
+```java
+double triangleSideA = 10;
+double triangleSideB = 12;
+double triangleSideC = Math.sqrt(triangleSideA*triangleSideA + triangleSideB*triangleSideB);
+// triangleSideC = 15.620499351813308
+```
+
+It would really suck if you had write `Math.sqrt(triangleSideA*triangleSideA + triangleSideB*triangleSideB)` every time you wanted to calculate the Pythagorean theorem.
+
+So, to not repeat ourselves, we can create a **method**.
+
+```java
+public static double getPythagoreanTheorem(double triangleSideA, double triangleSideB) {
+    return Math.sqrt(triangleSideA*triangleSideA + triangleSideB*triangleSideB);
+}
+// getPythagoreanTheorem(10, 12) = 15.620499351813308
+```
+
+## Class
+Triangle class

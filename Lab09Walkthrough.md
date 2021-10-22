@@ -14,14 +14,14 @@
 
 ## Steps
 1. Write `getLetter()` method
-    1.1 Given string, convert to ascii character
+    - 1.1 Given string, convert to ascii character
 2. Write `getWord()` method
-    2.1 Given string, call `getLetter()` on every 8 characters
+    - 2.1 Given string, call `getLetter()` on every 8 characters
 
 ## Step 1: Write `getLetter()` Method
 So, here’s what we know:
-- Our method is going to receive a string
-- When this method is called, it’s saved as a `char` type. So we need to return a `char` type.
+- `getLetter()` receives a string
+- When `getLetter()` is called, it’s saved as a `char` type. So we need to return a `char` type.
 
 ```java
 public static char getLetter(String binaryCharacterString){
@@ -32,7 +32,7 @@ public static char getLetter(String binaryCharacterString){
 
 ### Step 1.1: Given string, convert to ascii character
 So, here’s what we know:
-- Our method is going to receive a string
+- `getLetter()` receives a string
 - We need to convert the string from binary code to ascii
 - The Java `char` type reads numbers as ascii characters
 
@@ -51,8 +51,8 @@ public static char getLetter(String binaryCharacterString){
 
 ## Step 2: Write `getWord()` method
 So, here’s what we know:
-- Our method is going to receive a string
-- When this method is called, it’s saved to a `String` type. So we need to return a String.
+- `getWord()` receives a string
+- When `getWord()` is called, it’s saved to a `String` type. So we need to return a String.
 
 ```java
 public static String getWord(String binaryCharacters){
@@ -63,8 +63,8 @@ public static String getWord(String binaryCharacters){
 
 ### Step 2.2: Given string, call `getLetter()` on every 8 characters
 So, here’s what we know:
-- Our method is going to receive a string
-- When this method is called, it’s saved to a `String` type. So we need to return a String.
+- `getWord()` receives a string
+- When `getWord()` is called, it’s saved to a `String` type. So we need to return a String.
 - For every set of 8 characters in the string, we need to pass it into `getLetter()` and return all of the converted letters.
 
 
@@ -94,3 +94,5 @@ public static String getWord(String binaryCharacters){
     return word;
 }
 ```
+
+Don’t forget to add method comments.

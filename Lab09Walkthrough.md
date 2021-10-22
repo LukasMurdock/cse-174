@@ -49,7 +49,7 @@ public static char getLetter(String binaryCharacterString){
 }
 ```
 
-(Note: I didn’t know this method. I [googled for methods](https://stackoverflow.com/questions/42032237/java-binary-translator) and then googled more to [understand the methods](https://stackoverflow.com/questions/6611824/why-do-we-need-to-use-radix-parameter-when-calling-parseint).)
+(Note: I didn’t know this method beforehand. I [googled for methods](https://stackoverflow.com/questions/42032237/java-binary-translator) and then googled more to [understand the methods](https://stackoverflow.com/questions/6611824/why-do-we-need-to-use-radix-parameter-when-calling-parseint).)
 
 ## Step 2: Write `getWord()` method
 So, here’s what we know:

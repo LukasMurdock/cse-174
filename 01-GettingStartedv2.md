@@ -400,3 +400,72 @@ public static double getPythagoreanTheorem(double triangleSideA, double triangle
 
 ## Class
 Triangle class
+
+```java
+public class Triangle {
+    // declare Triangle object variables
+    private double sideA;
+    private double sideB;
+    private double sideC;
+
+    // create constructor method
+    Triangle(double sideA, double sideB, double sideC){
+        this.sideA = sideA;
+        this.sideB = sideB;
+        this.sideC = sideC;
+        calculateUnknownSide();
+    }
+
+    
+    public void calculateUnknownSide(){
+        if (this.sideA == 0) {
+            calculateSideA();
+        }
+        if (this.sideB == 0) {
+            calculateSideB();
+        }
+        if (this.sideC == 0) {
+            calculateSideC();
+        }
+    }
+
+    // a*a + b*b = c*c
+    public void calculateSideA() {
+        this.sideA = Math.sqrt(this.sideC*this.sideC - this.sideB*this.sideB);
+    }
+
+    // a*a + b*b = c*c
+    public void calculateSideB() {
+        this.sideB = Math.sqrt(this.sideC*this.sideC - this.sideA*this.sideA);
+    }
+
+    // a*a + b*b = c*c
+    public void calculateSideC() {
+        this.sideC = Math.sqrt(this.sideA*this.sideA + this.sideB*this.sideB);
+    }
+
+    public double getSide(char side) {
+        return side == 'A'
+                ? this.sideA
+                : side == 'B'
+                    ? this.sideB
+                    : this.sideC;
+    }
+}
+```
+
+Using this class, we can now easily create new triangle objects and get the the unknown side.
+
+```java
+class Main {
+    public static void main(String[] args){
+
+        Triangle firstTriangle = new Triangle(12, 10, 0);
+        System.out.println(firstTriangle.getSide('C'));
+
+        Triangle secondTriangle = new Triangle(3, 4, 0);
+        System.out.println(secondTriangle.getSide('C'));
+        
+    }
+}
+```

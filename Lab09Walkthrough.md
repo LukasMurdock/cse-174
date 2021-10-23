@@ -98,3 +98,33 @@ public static String getWord(String binaryCharacters){
 ```
 
 Don’t forget to add method comments.
+
+## Final Code
+
+
+```java
+/**
+ * Given a single binary character as a string, returns the character code.
+ *
+ * @param binaryCharacter a string holding a single binary character
+ * @return a char with the converted binary character.
+ */
+public static char getLetter(String binaryCharacterString){
+    char character = (char) Integer.parseInt(binaryCharacterString, 2);
+    return character;
+}
+
+public static String getWord(String binaryCharacters){
+    int numberOfCharacters = binaryCharacters.length() / 8;
+    String word = "";
+
+    for(int index = 0; index < numberOfCharacters; index++) {
+        int characterStart = index * 8;
+        int characterEnd = characterStart + 8;
+        String letter = binaryCharacters.substring(characterStart, characterEnd);
+        word = word + getLetter(letter);
+    }
+    
+    return word;
+}
+```

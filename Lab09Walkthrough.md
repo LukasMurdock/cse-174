@@ -90,7 +90,7 @@ public static String getWord(String binaryCharacters){
         String letter = binaryCharacters.substring(characterStart, characterEnd);
 
         // add letter to word
-        word = word + letter;
+        word = word + getLetter(letter);
     }
     
     return word;

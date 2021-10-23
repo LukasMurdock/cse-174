@@ -106,7 +106,7 @@ Don’t forget to add method comments.
 /**
  * Given a single binary character as a string, returns the character code.
  *
- * @param binaryCharacter a string holding a single binary character
+ * @param binaryCharacterString a string holding a single binary character
  * @return a char with the converted binary character.
  */
 public static char getLetter(String binaryCharacterString){
@@ -114,6 +114,12 @@ public static char getLetter(String binaryCharacterString){
     return character;
 }
 
+/**
+ * Given a string of binary codes, returns the converted string.
+ *
+ * @param binaryCharacters a string of binary codes.
+ * @return a string of translated binary codes.
+ */
 public static String getWord(String binaryCharacters){
     int numberOfCharacters = binaryCharacters.length() / 8;
     String word = "";

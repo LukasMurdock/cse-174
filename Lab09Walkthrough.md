@@ -84,7 +84,7 @@ public static String getWord(String binaryCharacters){
         int characterStart = index * 8;
 
         // The binary code is 8 characters long, so the character binary code ends characterStart + 8
-        int characterEnd = characterStart + 8;
+        int characterEnd = (characterStart) + 8;
 
         // Get the letter at current start and end
         String letter = binaryCharacters.substring(characterStart, characterEnd);

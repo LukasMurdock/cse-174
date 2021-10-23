@@ -399,7 +399,27 @@ public static double getPythagoreanTheorem(double triangleSideA, double triangle
 ```
 
 ## Class
-Triangle class
+
+Classes let us create custom objects, complete with their own methods and variables.
+
+Creating our own `Triangle` class, we can easily create new triangle objects that will automatically calculate any unknown side!
+
+```java
+class Main {
+    public static void main(String[] args){
+
+        Triangle firstTriangle = new Triangle(12, 10, 0);
+        System.out.println(firstTriangle.getSide('C'));
+        // 15.62…
+
+        Triangle secondTriangle = new Triangle(3, 4, 0);
+        System.out.println(secondTriangle.getSide('C'));
+        // 5.0
+    }
+}
+```
+
+Here’s what our Triangle class could look like.
 
 ```java
 public class Triangle {
@@ -450,22 +470,6 @@ public class Triangle {
                 : side == 'B'
                     ? this.sideB
                     : this.sideC;
-    }
-}
-```
-
-Using this class, we can now easily create new triangle objects and get the the unknown side.
-
-```java
-class Main {
-    public static void main(String[] args){
-
-        Triangle firstTriangle = new Triangle(12, 10, 0);
-        System.out.println(firstTriangle.getSide('C'));
-
-        Triangle secondTriangle = new Triangle(3, 4, 0);
-        System.out.println(secondTriangle.getSide('C'));
-        
     }
 }
 ```

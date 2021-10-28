@@ -302,3 +302,5 @@ public class Lab10 {
     }
 }
 ```
+
+Don’t forget to add proper comments to the top of file and _all_ methods.

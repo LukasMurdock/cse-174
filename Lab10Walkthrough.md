@@ -8,6 +8,7 @@
 - [Learn how to write loops](https://github.com/LukasMurdock/cse-174/blob/main/zines/loops.png)
 - Learn how to write methods
 - Learn how to “method overload”
+- Learn print formatting (String.format uses same formatting as printf)
 
 
 ## Steps
@@ -65,7 +66,7 @@ public static int menuSelection(String[] options) {
         System.out.println(index + ". " + options[index - 1]);
     }
 
-    // wait for user to input a valid number
+    // wait for user to input a valid menu option
     while (!validInput) {
         selection = input.nextInt();
         validInput = (selection > 0 && selection <= options.length);

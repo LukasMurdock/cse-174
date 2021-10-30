@@ -236,6 +236,7 @@ public class Lab10 {
             "Exit"
         };
 
+        System.out.println("Welcome to the Name Formatter");
         while (wantsToContinue) {
             int menuSelection = menuSelection(menuOptions);
 

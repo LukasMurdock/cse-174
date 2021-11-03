@@ -6,11 +6,11 @@ A few of these are labeled _unique_, as the way I’ve gone about solving them u
 - Custom string repeat method (because the java version coding bat uses doesn’t have one!)
     > What we cant use in coding bat:
     > ```java
-    > "hi".repeat(11)
+    > "hi".repeat(11);
     > ```
     > What we can use in coding bat:
     > ```java
-    > new String(new char[11]).replace("\0", "hi")
+    > new String(new char[11]).replace("\0", "hi");
     > ```
 
 # Bats 🦇

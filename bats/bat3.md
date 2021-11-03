@@ -12,6 +12,15 @@ A few of these are labeled _unique_, as the way I’ve gone about solving them u
     > ```java
     > new String(new char[11]).replace("\0", "hi");
     > ```
+    > You could even make repeat it’s own method if you wanted
+    > ```java
+    > public String repeat(String string, int timesToRepeat) {
+    >    return new String(new char[timesToRepeat]).replace("\0", string);
+    > }
+    > ```
+public static String repeat(String string, int timesToRepeat) {
+        
+    }
 
 # Bats 🦇
 

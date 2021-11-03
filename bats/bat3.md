@@ -18,9 +18,6 @@ A few of these are labeled _unique_, as the way I’ve gone about solving them u
     >    return new String(new char[timesToRepeat]).replace("\0", string);
     > }
     > ```
-public static String repeat(String string, int timesToRepeat) {
-        
-    }
 
 # Bats 🦇
 

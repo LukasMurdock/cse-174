@@ -138,7 +138,7 @@ public String getSimilars(String s1, String s2, String s3) {
 
 ```
 
-## separate
+## separate (unique: uses regex)
 
 Given a string, move all lowercase letters to the left.
 
@@ -319,7 +319,7 @@ public String firstMissing(String str){
 }
 ```
 
-## addDigits
+## addDigits (unique: uses regex)
 
 Given a string with letters and numbers, return the sum of all positive digits.
 
@@ -338,7 +338,7 @@ public int addDigits(String str) {
 
 ```
 
-## vowelIndexes (unique)
+## vowelIndexes (unique: uses regex)
 
 Given a string, return vowel indexes concatenated as a single number. Return -1 if there is no vowel.
 
@@ -397,7 +397,7 @@ public String reverse(String string) {
 }
 ```
 
-## getSecMax (unique)
+## getSecMax (unique: uses a sorting algorithm)
 
 Given a string of numbers separated by space, return the second highest number.
 
@@ -440,7 +440,7 @@ public double[] sortArray(double[] array){
 
 ```
 
-## putTogether (unique)
+## putTogether (unique: uses custom string repeat method)
 
 Given a string, put repeated (duplicate) characters together.
 
@@ -474,7 +474,7 @@ public String removeDuplicates(String string){
 }
 ```
 
-## moveLeft (unique)
+## moveLeft (unique: uses custom string repeat method)
 
 Given a string and a char, move all chars in string to the beginning of string.
 
@@ -490,7 +490,7 @@ public int count(String str, String target) {
 }
 ```
 
-## maxMin (unique)
+## maxMin (unique: uses a sorting algorithm)
 
 Given a string of ints separated by a space, return the sum of the highest and lowest numbers.
 
@@ -546,7 +546,7 @@ public int count(String str, String target) {
 }
 ```
 
-## areLocked (unique)
+## areLocked (unique: uses regex)
 
 Given two doubles:
 1. Test digit length is the same

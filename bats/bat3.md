@@ -549,8 +549,12 @@ public int count(String str, String target) {
 ## areLocked
 
 Given two doubles:
-1. Test digit length is the same ([6.0, 2.0] -> true; [6.0, 30] -> false)
-2. Test digits at same index are both even, or both odd ([6: even, 2: even] -> true; [6: even, 3: odd] -> false)
+1. Test digit length is the same
+    - [6.0, 2.0] -> true
+    - [6.0, 30] -> false
+2. Test digits at same index are both even, or both odd
+    - [6.0, 2.0] -> [{6: even, 2: even}, {0: even, 0: even}] -> true
+    - [6.0, 3.0] -> [**{6: even, 3: odd}**, {0: even, 0: even}] -> false
 
 ```java
 public boolean areLocked(double num1, double num2) {

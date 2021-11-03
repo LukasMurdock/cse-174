@@ -4,8 +4,14 @@ A few of these are labeled _unique_, as the way I’ve gone about solving them u
 - [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression) (regex)
 - [Bubble sorting algorithm](https://www.javatpoint.com/bubble-sort-in-java)
 - Custom string repeat method (because the java version coding bat uses doesn’t have one!)
-    - What we cant use in coding bat: "hi".repeat(10)
-    - What we can use in coding bat: new String(new char[count(**"hi"**, **10**)]).replace("\0", **10**)
+    > What we cant use in coding bat:
+    > ```java
+    > "hi".repeat(11)
+    > ```
+    > What we can use in coding bat:
+    > ```java
+    > new String(new char[count("hi", 11)]).replace("\0", 11)
+    > ```
 
 # Bats 🦇
 

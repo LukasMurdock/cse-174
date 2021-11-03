@@ -1,3 +1,14 @@
+# Unique
+
+A few of these are labeled _unique_, as the way I’ve gone about solving them uses one of the following distinct methods:
+- [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression) (regex)
+- [Bubble sorting algorithm](https://www.javatpoint.com/bubble-sort-in-java)
+- Custom string repeat method (because the java version coding bat uses doesn’t have one!)
+    - What we cant use in coding bat: "hi".repeat(10)
+    - What we can use in coding bat: new String(new char[count(**"hi"**, **10**)]).replace("\0", **10**)
+
+# Bats 🦇
+
 ## notDescending
 Return true if three ints are in descending order.
 - 1, 2, 3 -> false

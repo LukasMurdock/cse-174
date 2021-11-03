@@ -10,7 +10,7 @@ A few of these are labeled _unique_, as the way I’ve gone about solving them u
     > ```
     > What we can use in coding bat:
     > ```java
-    > new String(new char[count("hi", 11)]).replace("\0", 11)
+    > new String(new char[11]).replace("\0", "hi")
     > ```
 
 # Bats 🦇

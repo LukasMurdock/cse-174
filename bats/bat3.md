@@ -338,7 +338,7 @@ public int addDigits(String str) {
 
 ```
 
-## vowelIndexes
+## vowelIndexes (unique)
 
 Given a string, return vowel indexes concatenated as a single number. Return -1 if there is no vowel.
 
@@ -397,7 +397,7 @@ public String reverse(String string) {
 }
 ```
 
-## getSecMax
+## getSecMax (unique)
 
 Given a string of numbers separated by space, return the second highest number.
 
@@ -440,7 +440,7 @@ public double[] sortArray(double[] array){
 
 ```
 
-## putTogether
+## putTogether (unique)
 
 Given a string, put repeated (duplicate) characters together.
 
@@ -490,7 +490,7 @@ public int count(String str, String target) {
 }
 ```
 
-## maxMin
+## maxMin (unique)
 
 Given a string of ints separated by a space, return the sum of the highest and lowest numbers.
 
@@ -546,7 +546,7 @@ public int count(String str, String target) {
 }
 ```
 
-## areLocked
+## areLocked (unique)
 
 Given two doubles:
 1. Test digit length is the same

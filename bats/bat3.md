@@ -76,8 +76,8 @@ If boolean is true, return true if given number is in start-end inclusive.
 If boolean is false, return true if given number is greater than end or less than start.
 
 ```java
-public boolean checknums(int number, int start, int end, boolean check) {
-  return check
+public boolean checknums(int number, int start, int end, boolean isInclusive) {
+  return isInclusive
     ? number >= start && number <= end
     : number < start || number > end;
     
@@ -474,7 +474,7 @@ public String removeDuplicates(String string){
 }
 ```
 
-## moveLeft
+## moveLeft (unique)
 
 Given a string and a char, move all chars in string to the beginning of string.
 

@@ -165,3 +165,73 @@ public static double pizzaCost(Pizza pizza) {
     return totalCost;
 }
 ```
+
+## Full code
+
+```java
+public class PizzaShop {
+
+    public static double pizzaCost(Pizza pizza) {
+        double totalCost = pizzaSizeCost(pizza)
+            + pizzaToppingsCost(pizza)
+            + pizzaCrustCost(pizza)
+            + pizzaDeliveryCost(pizza);
+        return totalCost;
+    }
+
+    public static double pizzaSizeCost(Pizza pizza) {
+        double sizeCost = 0.0;
+        switch (pizza.getSize()) {
+            case "small":
+                sizeCost = 4.00;
+                break;
+            case "medium":
+                sizeCost = 5.50;
+                break;
+            case "large":
+                sizeCost = 7.00;
+            default:
+                // code block
+        }
+        return sizeCost;
+    }
+
+    public static double pizzaToppingsCost(Pizza pizza) {
+        final double perToppingPrice = 0.50;
+        double toppingsCost = perToppingPrice * pizza.toppingCount();
+        if (pizza.getToppings().contains("anchovies")) {
+            toppingsCost = toppingsCost + 0.50;
+        }
+        return toppingsCost;
+    }
+
+    public static double pizzaCrustCost(Pizza pizza) {
+        double crustCost = 0.0;
+        if (pizza.getCrust().equals("stuffed")) {
+            switch (pizza.getSize()) {
+                case "small":
+                    crustCost = 1.00;
+                    break;
+                case "medium":
+                    crustCost = 2.00;
+                    break;
+                case "large":
+                    crustCost = 3.00;
+                default:
+                    // code block
+            }
+        }
+        return crustCost;
+    }
+
+    public static double pizzaDeliveryCost(Pizza pizza) {
+        final double preDeliveryCost = pizzaSizeCost(pizza)
+            + pizzaToppingsCost(pizza)
+            + pizzaCrustCost(pizza);
+
+        return pizza.getDelivery()
+            ? preDeliveryCost >= 10 ? 0.00 : 2.00
+            : 0.00;
+    }
+}
+```

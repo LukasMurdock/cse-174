@@ -1,4 +1,4 @@
-*Want a shortcut to this page? Type in [`cse-lab8.lukas.icu`](https://cse-lab11.lukas.icu) into the search bar and it’ll redirect you here!*
+*Want a shortcut to this page? Type in [`cse-lab11.lukas.icu`](https://cse-lab11.lukas.icu) into the search bar and it’ll redirect you here!*
 
 *psst.* Hey, If you got more value out of this than a cup of coffee, consider buying me one.  
 

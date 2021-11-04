@@ -93,7 +93,7 @@ I like to make things reusable, so lets break this into it’s own method.
 
 ```java
 public static double pizzaToppingsCost(Pizza pizza) {
-    final double perToppingPrice = 0.50;
+    final double perToppingPrice = 0.75;
     double toppingsCost = perToppingPrice * pizza.toppingCount();
     if (pizza.getToppings().contains("anchovies")) {
         toppingsCost = toppingsCost + 0.50;
@@ -123,8 +123,9 @@ public static double pizzaCrustCost(Pizza pizza) {
                 break;
             case "large":
                 crustCost = 3.00;
+                break;
             default:
-                // code block
+                break;
         }
     }
     return crustCost;
@@ -188,14 +189,15 @@ public class PizzaShop {
                 break;
             case "large":
                 sizeCost = 7.00;
+                break;
             default:
-                // code block
+                break;
         }
         return sizeCost;
     }
 
     public static double pizzaToppingsCost(Pizza pizza) {
-        final double perToppingPrice = 0.50;
+        final double perToppingPrice = 0.75;
         double toppingsCost = perToppingPrice * pizza.toppingCount();
         if (pizza.getToppings().contains("anchovies")) {
             toppingsCost = toppingsCost + 0.50;
@@ -215,8 +217,9 @@ public class PizzaShop {
                     break;
                 case "large":
                     crustCost = 3.00;
+                    break;
                 default:
-                    // code block
+                    break;
             }
         }
         return crustCost;

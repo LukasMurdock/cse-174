@@ -49,7 +49,7 @@ public class PizzaShop {
 ```
 
 ## Step 2: Create a pizzaCost method
-Honestly, this method _should_ be in the pizza class but I digress.
+Honestly, this method should be in the _pizza_ class but I digress.
 
 ```java
 public static double pizzaCost(Pizza pizza) {

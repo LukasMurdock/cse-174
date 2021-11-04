@@ -77,8 +77,9 @@ public static double pizzaSizeCost(Pizza pizza) {
             break;
         case "large":
             sizeCost = 7.00;
+            break;
         default:
-            // code block
+            break;
     }
     return sizeCost;
 }

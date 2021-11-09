@@ -21,3 +21,5 @@ echo "$IMPORTS$MAIN_CLASS_START$(cat input.txt)\\n}" > Runner.java && java Runne
 || echo "$IMPORTS$MAIN_CLASS_START$MAINSTART$(cat input.txt)\\n}\\n}" > Runner.java && java Runner.java > output.txt && osascript -e "display notification \"$(cat output.txt)\" with title \"Runner\""\
 ```
 
+1. In Settings > Keyboard > Services: Scroll down and click `none` to add a keybinding.
+2. In Settings > Security & Privacy > Accessibility: Add Automator

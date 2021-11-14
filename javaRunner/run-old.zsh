@@ -22,4 +22,4 @@ echo "$IMPORTS$MAIN_CLASS_START$(cat input.txt)\\n}" > Runner.java && java Runne
 
 
 
-cat output.txt
+echo "$(cat data/output.txt)"

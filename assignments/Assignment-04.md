@@ -218,9 +218,10 @@ public static void printCustomerList(List<Customer> listToPrint) {
             repeatIndex < listToPrint.size()
                 && repeatIndex < numbersToDisplay + displayCount
         ) {
-            System.out.printf("%s. %s\n",
-                repeatIndex + 1, listToPrint.get(repeatIndex).toString());
-            // System.out.println(customers.get(repeatIndex).toString());
+            System.out.printf(
+                "%s. %s\n",
+                repeatIndex + 1, listToPrint.get(repeatIndex).toString()
+            );
             repeatIndex++;
         }
 
@@ -426,10 +427,6 @@ public class Assignment4 {
      * @param customerList list to sort
      */
     public static void sort1(List<Customer> customerList) {
-        // QuickSort sort
-        // customerList.sort((o1, o2) -> (int) (o1.getId() - o2.getId()));
-        // customerList.sort(Comparator.comparing(Customer::getId));
-        // customerList.sort(Comparator.comparing(Customer::getName));
         sortedCustomers = customerList.stream()
             .sorted(Comparator.comparing(Customer::getName))
             .collect(Collectors.toList());
@@ -444,9 +441,6 @@ public class Assignment4 {
         sortedCustomers = customerList.stream()
             .sorted(Comparator.comparing(Customer::getId))
             .collect(Collectors.toList());
-
-        // insertionSort(customerList);
-
     }
 
     /**
@@ -485,9 +479,10 @@ public class Assignment4 {
                 repeatIndex < listToPrint.size()
                     && repeatIndex < numbersToDisplay + displayCount
             ) {
-                System.out.printf("%s. %s\n",
-                    repeatIndex + 1, listToPrint.get(repeatIndex).toString());
-                // System.out.println(customers.get(repeatIndex).toString());
+                System.out.printf(
+                    "%s. %s\n",
+                    repeatIndex + 1, listToPrint.get(repeatIndex).toString()
+                );
                 repeatIndex++;
             }
 
@@ -502,7 +497,6 @@ public class Assignment4 {
             } else {
                 validInput = true;
             }
-            // System.out.print(repeatIndex < listToPrint.size());
 
             index--;
         }
@@ -520,8 +514,6 @@ public class Assignment4 {
 
         int selection = -1;
         boolean validInput = false;
-        // System.out.println("Choose from these choices");
-        // System.out.println("-------------------------\n");
 
         for (int index = 1; index < options.length + 1; index++) {
             System.out.println(index + ". " + options[index - 1]);

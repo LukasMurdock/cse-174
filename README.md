@@ -1,4 +1,4 @@
-> Good code is code that can be understood by a junior engineer. Great code can be understood by a first year CS freshman. The best code is no code at all.  
+> Good code is code that can be understood by a junior engineer. Great code can be understood by a first year CS freshman. The best code is no code at all.
 > – [A Drunken Developer](https://www.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
 
 # Fundamentals of Programming and Problem Solving (CSE-174)
@@ -8,7 +8,7 @@
 - Character data and string processing.
 - User-defined data types: structured and enumerated.
 - Arrays and arrays of structures.
-- Algorithm development and efficiency considerations. 
+- Algorithm development and efficiency considerations.
 - Modular programming using sequence, selection, and repetition control structures.
 - Program debugging and testing.
 - Simple sorting and searching algorithms.
@@ -45,9 +45,12 @@ Feel free to branch and PR. Don’t know what Github is but want to contribute? 
 - [CodeKata: Code Practice Sessions](http://codekata.com/)
 
 ## Textbook
-Big Java Late Objects  
-by Cay S. Horstmann (San Jose State Univ.)  
+Big Java Late Objects
+by Cay S. Horstmann (San Jose State Univ.)
 ISBN: 9781118026274
+
+- [Coding bat](https://codingbat.com/)
+- [Coding bat - Custom problems](https://codingbat.com/home/amjadm@miamioh.edu)
 
 ## Quiz
 - `welcom`
